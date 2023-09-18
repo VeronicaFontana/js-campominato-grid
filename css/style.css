@@ -1,0 +1,22 @@
+section{
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
+
+section .container{
+  width: 600px;
+  height: 600px;
+  background-color: rgb(163, 69, 45);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.box{
+  background-color: rgb(10, 157, 255);
+  width: calc(100% / 10);
+  border: 2px solid white;
+  cursor: pointer;
+}
