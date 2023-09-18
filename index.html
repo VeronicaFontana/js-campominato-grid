@@ -13,13 +13,13 @@
 <body>
   <section class="topbar d-flex justify-content-end">
     <div class="d-flex align-items-center">
-      <div class="dropdown">
-        <button class="btn btn-light dropdown-toggle mx-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">Difficoltà di gioco</button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Facile</a></li>
-          <li><a class="dropdown-item" href="#">Medio</a></li>
-          <li><a class="dropdown-item" href="#">Difficile</a></li>
-        </ul>
+      <div class="mx-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Livello di difficoltà</option>
+          <option id="facile" value="1">Facile</option>
+          <option id="medio" value="2">Medio</option>
+          <option id="difficile" value="3">Difficile</option>
+        </select>
       </div>
       <button class="btn-restart">Ricomincia</button>
     </div>

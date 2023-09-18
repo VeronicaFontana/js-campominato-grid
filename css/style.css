@@ -47,9 +47,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% / 10);
   border: 2px solid white;
   cursor: pointer;
+}
+
+.box-100{
+  width: calc(100% / 10);
+}
+
+.box-81{
+  width: calc(100% / 9);
+}
+
+.box-49{
+  width: calc(100% / 7);
 }
 
 .box-click{
