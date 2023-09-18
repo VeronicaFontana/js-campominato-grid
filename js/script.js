@@ -7,6 +7,7 @@ btnRestart.addEventListener("click", function(){
   btnStart.classList.remove("d-none");
   container.classList.add("d-none");
   container.innerHTML = " ";
+  select.value = 0;
 })
 
 btnStart.addEventListener("click", function(){
