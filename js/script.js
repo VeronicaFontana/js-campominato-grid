@@ -1,5 +1,6 @@
 const container = document.querySelector(".container");
 const btnStart = document.querySelector(".btn-start");
+const btnRestart = document.querySelector(".btn-restart");
 
 btnStart.addEventListener("click", function(){
   btnStart.classList.add("d-none");
@@ -11,6 +12,12 @@ for(i = 1; i <= 100; i++){
 		
   square.addEventListener("click", function(){
     this.classList.toggle("box-click");
+  })
+
+  btnRestart.addEventListener("click", function(){
+    btnStart.classList.remove("d-none");
+    container.classList.add("d-none");
+    square.classList.remove("box-click");
   })
 
   container.append(square);
